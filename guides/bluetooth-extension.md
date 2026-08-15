@@ -20,9 +20,10 @@ The LF/BLE extension adds portable power, Bluetooth Low Energy, a screen and swi
 2. Select **Host Interface**.
 3. Choose **BLE** and confirm the selection.
 4. Install MTools BLE from [Google Play](https://play.google.com/store/apps/details?id=com.mtoolstec.mtoolsLite) or the [Apple App Store](https://apps.apple.com/us/app/mtools-ble-rfid-reader/id1531345398).
-5. Open MTools BLE, scan for devices, and connect to PN532Killer.
+5. Open MTools BLE, scan for devices, and connect to **PN532Killer-BLE**.
+6. Open **Tools → PN532Killer** to control PN532Killer and switch supported modes.
 
-MTools BLE supports PN532 BLE devices, tag operations, dump and slot management, firmware/OTA tools, and supported PN532Killer MFKey32/MFKey64 workflows. Exact availability depends on the app and firmware versions.
+MTools BLE also provides MCT, MUT, Terminal, UID Changer, UMC, and other RFID tools. It does not support updating PN532Killer firmware over BLE or OTA.
 
 For the complete app comparison and permission steps, see [MTools mobile apps](../software/mobile-apps.md).
 
@@ -35,5 +36,5 @@ Change **Host Interface** back to **USB** before connecting a USB host applicati
 - Keep the device close to the phone during pairing and initial transfers.
 - Disconnect other phones or host applications before switching interfaces.
 - Large dump transfers are more sensitive to power and radio interruptions.
-- If BLE is visible but an application cannot communicate, confirm that the device host interface is set to BLE rather than USB.
+- If PN532Killer-BLE is visible but the app cannot communicate, confirm that the device host interface is set to BLE rather than USB.
 - If the app cannot discover the device, grant Android's nearby-device permission or iOS Bluetooth permission, then scan again inside MTools BLE.

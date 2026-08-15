@@ -1,6 +1,6 @@
 # Upload and download dumps
 
-Use the PN532 CLI to create local backups and load supported PN532Killer emulator slots. Use [MTools on Android over USB or MTools BLE](../software/mobile-apps.md) when you need a mobile graphical slot-transfer workflow.
+Use the PN532 CLI to create local backups and load supported PN532Killer emulator slots. [MTools on Android over direct USB](../software/mobile-apps.md#connect-mtools-by-usb-on-android) can also download and upload MIFARE Classic dumps through its PN532Killer controls.
 
 ## Create a local dump
 
