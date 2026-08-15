@@ -1,12 +1,19 @@
 :root {
-  --vp-c-brand-1: #d92820;
-  --vp-c-brand-2: #b91e18;
-  --vp-c-brand-3: #941814;
-  --vp-c-brand-soft: rgba(217, 40, 32, 0.12);
+  --vp-c-brand-1: #4b1c5a;
+  --vp-c-brand-2: #572169;
+  --vp-c-brand-3: #6b2881;
+  --vp-c-brand-soft: rgba(107, 40, 129, 0.12);
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #ef3e34 10%, #a7120d 85%);
-  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(239, 62, 52, 0.24), transparent 68%);
+  --vp-home-hero-name-background: linear-gradient(120deg, #9754ad 10%, #6b2881 85%);
+  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(107, 40, 129, 0.25), transparent 68%);
   --vp-home-hero-image-filter: blur(38px);
+}
+
+.dark {
+  --vp-c-brand-1: #d4a5e2;
+  --vp-c-brand-2: #aa65be;
+  --vp-c-brand-3: #7c3591;
+  --vp-c-brand-soft: rgba(181, 110, 201, 0.16);
 }
 
 .VPNavBarTitle .logo { width: 30px; height: 30px; }
@@ -37,9 +44,9 @@
 .command-card__lights i { width: 8px; height: 8px; border-radius: 999px; background: #ff5f57; }
 .command-card__lights i:nth-child(2) { background: #febc2e; }
 .command-card__lights i:nth-child(3) { background: #28c840; }
-.command-card__badge { margin-left: auto; color: #ffaaa5; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.command-card__badge { margin-left: auto; color: #d9a9e6; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
 .command-card__terminal { padding: 17px 18px; color: #f5f7fa; background: #15171c; font: 600 14px/1.6 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-.command-card__prompt { color: #ff6d65; user-select: none; }
+.command-card__prompt { color: #c982dd; user-select: none; }
 .command-card p { margin: 0; padding: 12px 16px; color: var(--vp-c-text-2); font-size: 14px; }
 
 @media (max-width: 640px) {
