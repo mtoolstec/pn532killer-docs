@@ -54,9 +54,7 @@ Exit back to Reader mode after the intended interaction:
 
 <CommandCard title="Exit Sniffer mode" command="hw mode r" availability="PN532Killer" />
 
-::: warning Current CLI boundary
-The current PN532 CLI can select and configure Sniffer mode but does not register a high-level command to retrieve or decode the captured records. Complete that step with supported MTools/Windows software or a low-level protocol integration.
-:::
+The PN532 CLI beta retrieves and analyzes the captured records with `hf mf mfkey32v2` or `hf mf mfkey64`. Packaged beta releases include the helpers; source installations must build them with `./script/build_helpers.sh`.
 
 ::: danger Authorized use only
 Capture only systems and credentials that you own or have explicit authorization to assess.

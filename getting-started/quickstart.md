@@ -20,12 +20,16 @@ For PN532Killer, keep **Settings → Host Interface** on **USB** during initial 
 
 ## 2. Install the PN532 CLI
 
+For the firmware updater, emulator export, MFKey helpers, and recovery commands documented here, install the beta development channel:
+
 ```bash
-git clone https://github.com/whywilson/pn532-python.git
+git clone --branch dev https://github.com/whywilson/pn532-python.git
 cd pn532-python
 python3 -m pip install -r script/requirements.txt
 python3 script/pn532_cli_main.py
 ```
+
+The repository publishes packaged beta builds as `beta.*` prereleases. Use `main` instead when you need the stable branch's high-level `ntag read` and `ntag write` commands.
 
 ## 3. Connect and identify the device
 
@@ -69,5 +73,6 @@ Start with reads. Do not write a full dump until you understand manufacturer blo
 - [PN532 CLI guide](../software/python-cli.md)
 - [Complete command reference](../reference/command-reference.md)
 - [Reader mode](../guides/reader-mode.md)
+- [MIFARE Classic recovery](../guides/mifare-classic-recovery.md)
 - [Emulator mode](../guides/emulator-mode.md)
 - [Sniffer overview](../sniffer/README.md)

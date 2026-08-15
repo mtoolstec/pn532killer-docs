@@ -36,8 +36,9 @@ Use `hf mf wrbl` only after checking the block number and access conditions. Sec
 ```text
 hf mfu rdbl -b 4
 hf mfu dump --file tag.json --bin tag.bin
-ntag read --dump
 ```
+
+The stable `main` branch also exposes high-level `ntag read` and `ntag write` NDEF commands. They are not registered in the current beta `dev` command tree, so use `hf mfu` on beta or switch to the stable channel for those helpers.
 
 ## ISO/IEC 15693 — PN532Killer
 

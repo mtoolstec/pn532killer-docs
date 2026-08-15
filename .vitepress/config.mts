@@ -39,6 +39,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Reader mode', link: '/guides/reader-mode' },
+          { text: 'MIFARE Classic recovery', link: '/guides/mifare-classic-recovery' },
           { text: 'Emulator mode', link: '/guides/emulator-mode' },
           { text: 'Upload and download dumps', link: '/guides/upload-download-dumps' },
           { text: 'Bluetooth extension', link: '/guides/bluetooth-extension' }

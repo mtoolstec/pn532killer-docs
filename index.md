@@ -4,7 +4,7 @@ layout: home
 hero:
   name: PN532Killer
   text: One CLI for PN532 and PN532Killer
-  tagline: Connect, inspect tags, manage emulator slots, and configure capture workflows from a consistent terminal interface.
+  tagline: Connect, inspect tags, manage emulator slots, analyze authorized captures, and update firmware from one terminal interface.
   image:
     src: /logo.svg
     alt: PN532Killer
@@ -21,6 +21,8 @@ features:
     details: Use one CLI for ISO/IEC 14443 A, MIFARE Classic, MIFARE Ultralight, and NTAG reader workflows.
   - title: PN532Killer modes
     details: Switch Reader, Emulator, and Sniffer modes with explicit terminal commands and device-aware validation.
+  - title: Beta CLI workflows
+    details: Export emulator slots, update PN532Killer firmware, and run authorized MFKey or Static Nested analysis from the CLI.
   - title: Open and maintainable
     details: Source-controlled documentation, automatic GitHub Pages deployment, local search, and editable Markdown.
 ---

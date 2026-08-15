@@ -15,6 +15,7 @@
 
 * [Reader and emulator](guides/README.md)
 * [Reader mode](guides/reader-mode.md)
+* [MIFARE Classic recovery](guides/mifare-classic-recovery.md)
 * [Emulator mode](guides/emulator-mode.md)
 * [Upload and download dumps](guides/upload-download-dumps.md)
 * [Bluetooth extension](guides/bluetooth-extension.md)

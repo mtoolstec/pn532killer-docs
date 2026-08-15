@@ -10,11 +10,11 @@ Set the authorized target UID, then enter Sniffer type 0:
 
 <CommandCard title="Return to Reader mode" command="hw mode r" availability="PN532Killer" />
 
-<CommandCard title="Set the authorized target UID" command="hf sniff setuid -u 11223344" availability="PN532Killer" />
+<CommandCard title="Set the authorized target UID" command="hf mf sniffer setuid -u 11223344" availability="PN532Killer · beta" />
 
 <CommandCard title="Start MFKey32v2-oriented capture" command="hw mode s -t 0" availability="PN532Killer" />
 
-For a special block 0 layout, use `hf sniff setuid --blk0 HEX` instead of `-u`.
+For a special block 0 layout, use `hf mf sniffer setuid --blk0 HEX` instead of `-u`.
 
 Present PN532Killer to the reader and trigger only the permitted authentication attempts. When finished, leave Sniffer mode:
 
@@ -22,6 +22,10 @@ Present PN532Killer to the reader and trigger only the permitted authentication 
 
 ## Retrieve and analyze
 
-The current PN532 CLI does not expose capture download or MFKey32v2 calculation as interactive commands. Retrieve and analyze the records with supported MTools/Windows software, or build a low-level integration around the PN532Killer Sniffer-log protocol.
+Run the beta command after returning to Reader mode:
 
-If analysis fails, collect more distinct permitted attempts, verify the protocol is MIFARE Classic, clear records from previous sessions in the analysis tool, and improve antenna alignment.
+<CommandCard title="Analyze MFKey32v2 records" command="hf mf mfkey32v2 --show-raw" availability="PN532Killer · beta" description="Downloads the Sniffer records and runs the bundled mfkey32v2 helper." />
+
+Packaged beta releases include the helper. For a source checkout, run `./script/build_helpers.sh` before analysis.
+
+If analysis fails, collect more distinct permitted attempts, verify that the protocol is MIFARE Classic, check that the native helper exists, separate records from previous sessions, and improve antenna alignment. The current interactive tree does not expose a supported capture-clear command.

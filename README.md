@@ -9,6 +9,7 @@ Use this documentation to set up the hardware, update its firmware, choose a wor
 - New device: install the [PN532 CLI](software/python-cli.md), then follow the [Quickstart](getting-started/quickstart.md).
 - Learn what the hardware supports: read [Product overview](getting-started/overview.md) and [Compatibility](reference/compatibility.md).
 - Update an existing device: see [Firmware update](getting-started/firmware-update.md).
+- Audit or recover an authorized MIFARE Classic tag: see [MIFARE Classic recovery](guides/mifare-classic-recovery.md).
 - Find an exact command: open the [PN532 CLI command reference](reference/command-reference.md).
 - Use a graphical or compatibility tool: choose the [Windows tool](software/windows-tool.md) or [libnfc](software/libnfc.md).
 - Solve a problem: open [Troubleshooting](troubleshooting/README.md).

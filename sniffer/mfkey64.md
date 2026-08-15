@@ -16,6 +16,10 @@ Place the original tag against the PN532Killer antenna and present both to the r
 
 ## Retrieve and analyze
 
-The current PN532 CLI does not expose capture download or MFKey64 calculation as interactive commands. Complete retrieval and analysis with supported MTools/Windows software, or a low-level integration using the PN532Killer Sniffer-log commands.
+Run the beta command after returning to Reader mode:
 
-If capture fails, move the original tag slightly across the PN532Killer antenna, keep both close to the reader, and confirm the reader performed MIFARE Classic authentication rather than only reading the UID.
+<CommandCard title="Analyze MFKey64 records" command="hf mf mfkey64 --show-raw" availability="PN532Killer · beta" description="Downloads the Sniffer records and runs the bundled mfkey64 helper." />
+
+Packaged beta releases include the helper. For a source checkout, run `./script/build_helpers.sh` before analysis.
+
+If capture fails, move the original tag slightly across the PN532Killer antenna, keep both close to the reader, confirm the reader performed MIFARE Classic authentication rather than only reading the UID, and check that the native helper exists.
