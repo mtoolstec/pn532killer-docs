@@ -1,4 +1,9 @@
-# Sniffer overview
+---
+title: PN532Killer Sniffer and MFKey workflows
+description: Configure PN532Killer Sniffer mode and analyze authorized MIFARE Classic captures with MFKey32v2 or MFKey64 through PN532 CLI beta.
+---
+
+# PN532Killer Sniffer and MFKey workflows
 
 PN532Killer provides MIFARE Classic capture modes for authorized research. The PN532 CLI beta can prepare the target identity, select the capture mode, retrieve the records, and run the bundled MFKey helper.
 

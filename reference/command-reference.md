@@ -1,3 +1,8 @@
+---
+title: PN532 CLI beta command reference
+description: Complete PN532 CLI dev branch command tree for PN532 and PN532Killer hardware, MIFARE, ISO15693, emulation, Sniffer, and firmware update.
+---
+
 # PN532 CLI beta command reference
 
 This page follows the command tree currently registered by the PN532 CLI `dev` branch, which is distributed as `beta.*` prereleases. The branch can change; enter a group such as `hf mf` or a command followed by `-h` to verify the installed build.

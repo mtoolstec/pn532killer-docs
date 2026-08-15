@@ -1,4 +1,9 @@
-# Emulator mode
+---
+title: PN532Killer Emulator mode
+description: Load MIFARE Classic, Ultralight, NTAG, or ISO15693 data into PN532Killer emulator slots and select profiles with PN532 CLI.
+---
+
+# PN532Killer Emulator mode
 
 PN532Killer Emulator mode presents one prepared slot to a compatible reader. Standard PN532 hardware does not support these commands.
 

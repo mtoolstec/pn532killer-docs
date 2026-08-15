@@ -1,4 +1,9 @@
-# MIFARE Classic recovery
+---
+title: MIFARE Classic recovery with PN532 CLI
+description: Authorized PN532 and PN532Killer MIFARE Classic key workflows with chk, mfoc, autopwn, Static Nested, Darkside, and MFKey helpers.
+---
+
+# MIFARE Classic recovery with PN532 CLI
 
 The PN532 CLI beta provides several authorized key-audit and recovery workflows. They are not interchangeable: start with known keys and dictionary checks, then use a nonce-based workflow only when the card and hardware support it.
 
@@ -109,4 +114,4 @@ hf mf mfkey32v2 --show-raw
 hf mf mfkey64 --show-raw
 ```
 
-See [Sniffer workflows](../sniffer/README.md) for capture setup. If a command fails, confirm the beta build, helper executable, firmware version, card behavior, and antenna alignment before changing parameters.
+See [Sniffer workflows](../sniffer/index.md) for capture setup. If a command fails, confirm the beta build, helper executable, firmware version, card behavior, and antenna alignment before changing parameters.

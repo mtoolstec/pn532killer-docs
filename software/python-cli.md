@@ -1,4 +1,9 @@
-# PN532 CLI
+---
+title: PN532 CLI for PN532 and PN532Killer
+description: Install PN532 CLI beta on Windows, macOS, or Linux for PN532Killer modes, firmware updates, emulator slots, MFKey, and MIFARE recovery.
+---
+
+# PN532 CLI for PN532 and PN532Killer
 
 The open-source [PN532 CLI](https://github.com/whywilson/pn532-python) is the recommended interface for standard PN532 hardware and PN532Killer on Windows, macOS, and Linux. It detects the connected device and checks commands against its advertised capability set.
 

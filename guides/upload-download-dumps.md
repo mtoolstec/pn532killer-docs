@@ -1,6 +1,6 @@
 # Upload and download dumps
 
-Use the PN532 CLI to create local backups and load supported PN532Killer emulator slots. Use MTools or the Windows tool when you need a graphical slot-transfer workflow.
+Use the PN532 CLI to create local backups and load supported PN532Killer emulator slots. Use [MTools on Android over USB or MTools BLE](../software/mobile-apps.md) when you need a mobile graphical slot-transfer workflow.
 
 ## Create a local dump
 

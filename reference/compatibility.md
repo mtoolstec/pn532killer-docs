@@ -1,4 +1,9 @@
-# Compatibility
+---
+title: PN532Killer compatibility
+description: Compare PN532 and PN532Killer CLI capabilities, RFID protocol support, USB, TCP/UDP, Android MTools, and Bluetooth LE interfaces.
+---
+
+# PN532Killer compatibility
 
 The PN532 CLI uses one command language for standard PN532 and PN532Killer hardware, then checks each command against the capabilities detected at connection time.
 
@@ -40,7 +45,10 @@ This table follows the current `dev` command registrations. Beta builds may chan
 | Interface | Requirements | Notes |
 | --- | --- | --- |
 | USB UART | CH343 driver where required | Default and preferred for setup and updates |
+| Android USB host/OTG | MTools and data-capable cable | Direct PN532Killer control; set Host Interface to USB |
 | TCP/UDP bridge | Reachable `host:port` | Accepted by `hw connect -p` |
-| BLE | LF/BLE extension and supported app | Select BLE in Host Interface settings |
+| Bluetooth LE | LF/BLE extension and MTools BLE on Android/iOS | Select BLE in Host Interface settings |
+
+See [MTools mobile apps](../software/mobile-apps.md) for verified Google Play and App Store downloads.
 
 Compatibility with a protocol does not imply compatibility with every commercial tag product or proprietary application built on that protocol.

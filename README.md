@@ -7,6 +7,7 @@ Use this documentation to set up the hardware, update its firmware, choose a wor
 ## Start here
 
 - New device: install the [PN532 CLI](software/python-cli.md), then follow the [Quickstart](getting-started/quickstart.md).
+- Phone workflow: use [MTools on Android by USB or MTools BLE on Android/iOS](software/mobile-apps.md).
 - Learn what the hardware supports: read [Product overview](getting-started/overview.md) and [Compatibility](reference/compatibility.md).
 - Update an existing device: see [Firmware update](getting-started/firmware-update.md).
 - Audit or recover an authorized MIFARE Classic tag: see [MIFARE Classic recovery](guides/mifare-classic-recovery.md).

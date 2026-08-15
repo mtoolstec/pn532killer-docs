@@ -30,5 +30,6 @@ PN532Killer is designed for RFID development, interoperability testing, tag rese
 
 PN532Killer can work with many applications that support a PN532 over high-speed UART. Extended PN532Killer features require software that implements its additional commands, such as the official Python CLI or supported MTools applications.
 
-PN532 compatibility does not mean every PN532 driver, transport, command, or card type is guaranteed to work. See [Compatibility](../reference/compatibility.md) before planning a deployment.
+On mobile devices, [MTools connects directly from Android over USB host/OTG, while MTools BLE connects from Android or iOS through the PN532Killer BLE extension](../software/mobile-apps.md).
 
+PN532 compatibility does not mean every PN532 driver, transport, command, or card type is guaranteed to work. See [Compatibility](../reference/compatibility.md) before planning a deployment.

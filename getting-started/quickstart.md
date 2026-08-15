@@ -1,4 +1,9 @@
-# Quickstart
+---
+title: PN532Killer quickstart
+description: Connect PN532Killer or PN532 over USB, install PN532 CLI, enter Reader mode, and run a safe ISO14443A scan.
+---
+
+# PN532Killer quickstart
 
 This path verifies a PN532 or PN532Killer over USB with the same PN532 CLI.
 
@@ -68,11 +73,19 @@ hf 15 info
 
 Start with reads. Do not write a full dump until you understand manufacturer blocks, access conditions, lock bytes, and counters.
 
+## Prefer an Android or iOS app?
+
+- **Android USB:** connect PN532Killer directly with USB host/OTG and use [MTools](https://play.google.com/store/apps/details?id=tk.toolkeys.mtools).
+- **Android or iOS BLE:** install the PN532Killer BLE extension and use [MTools BLE](../software/mobile-apps.md).
+
+Keep **Host Interface** set to `USB` for MTools USB or PN532 CLI. Change it to `BLE` only for MTools BLE.
+
 ## Next steps
 
 - [PN532 CLI guide](../software/python-cli.md)
+- [MTools mobile apps](../software/mobile-apps.md)
 - [Complete command reference](../reference/command-reference.md)
 - [Reader mode](../guides/reader-mode.md)
 - [MIFARE Classic recovery](../guides/mifare-classic-recovery.md)
 - [Emulator mode](../guides/emulator-mode.md)
-- [Sniffer overview](../sniffer/README.md)
+- [Sniffer overview](../sniffer/index.md)

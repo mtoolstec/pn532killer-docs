@@ -1,4 +1,9 @@
-# Reader mode
+---
+title: PN532Killer Reader mode
+description: Use PN532 CLI Reader mode for ISO14443A, MIFARE Classic, Ultralight, NTAG, and PN532Killer ISO15693 operations.
+---
+
+# PN532Killer Reader mode
 
 Reader mode exposes the shared PN532 interface and PN532Killer's additional ISO/IEC 15693 support.
 

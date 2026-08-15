@@ -22,7 +22,7 @@
 
 ## Sniffer workflows
 
-* [Sniffer overview](sniffer/README.md)
+* [Sniffer overview](sniffer/index.md)
 * [MFKey32v2 — without tag](sniffer/mfkey32v2.md)
 * [MFKey64 — with tag](sniffer/mfkey64.md)
 * [Static Nested](sniffer/static-nested.md)
@@ -33,6 +33,7 @@
 * [Install the CH343 driver](software/ch343-driver.md)
 * [Windows tool](software/windows-tool.md)
 * [PN532 CLI](software/python-cli.md)
+* [MTools mobile apps](software/mobile-apps.md)
 * [Use with libnfc](software/libnfc.md)
 
 ## Troubleshooting

@@ -1,4 +1,9 @@
-# Firmware update
+---
+title: Update PN532Killer firmware
+description: Update PN532Killer firmware with the PN532 CLI beta over USB, recover through DFU, or use supported Android MTools update tools.
+---
+
+# Update PN532Killer firmware
 
 The PN532 CLI beta can update PN532Killer firmware directly with `hw fw`. This workflow is PN532Killer-only and requires a direct USB serial connection.
 
@@ -79,6 +84,6 @@ Its `--force` option expects manual DFU entry and should be reserved for recover
 ## Other supported update paths
 
 - **Windows:** the official `Ad15xUpdateTool` remains available in the [PC tools directory](https://github.com/NFC-funs/PN532Killer/tree/main/PcTools).
-- **Android:** current MTools versions provide USB OTG firmware/DFU workflows.
+- **Android:** [MTools over USB OTG](../software/mobile-apps.md#connect-mtools-by-usb-on-android) provides supported firmware/DFU workflows in current releases.
 
 If verification fails, stop, keep the USB connection stable, and follow [Recover after a failed update](../troubleshooting/firmware-recovery.md). Do not cycle through random firmware files.

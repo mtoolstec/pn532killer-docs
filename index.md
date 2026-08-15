@@ -1,5 +1,7 @@
 ---
 layout: home
+title: PN532Killer Documentation
+description: Official PN532Killer guides for PN532 CLI, Android USB, MTools BLE, RFID reader and emulator modes, Sniffer workflows, and firmware updates.
 
 hero:
   name: PN532Killer
@@ -21,6 +23,8 @@ features:
     details: Use one CLI for ISO/IEC 14443 A, MIFARE Classic, MIFARE Ultralight, and NTAG reader workflows.
   - title: PN532Killer modes
     details: Switch Reader, Emulator, and Sniffer modes with explicit terminal commands and device-aware validation.
+  - title: Android USB and BLE
+    details: Control PN532Killer from Android over USB with MTools, or connect Android and iOS wirelessly with MTools BLE.
   - title: Beta CLI workflows
     details: Export emulator slots, update PN532Killer firmware, and run authorized MFKey or Static Nested analysis from the CLI.
   - title: Open and maintainable
@@ -37,6 +41,8 @@ hf 14a scan
 ```
 
 `hw mode r` is a PN532Killer extension. The CLI automatically detects a standard PN532 and exposes the compatible reader commands without requiring a separate tool.
+
+Prefer a phone? Use [MTools on Android over USB or MTools BLE on Android and iOS](/software/mobile-apps).
 
 ::: warning Authorized use only
 Use PN532Killer only with tags, systems, and readers that you own or are explicitly authorized to test.
